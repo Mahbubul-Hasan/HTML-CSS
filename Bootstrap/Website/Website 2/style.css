@@ -1,0 +1,47 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+ ul{
+  float: left;
+  position: fixed;
+  background-color: lightgray;
+  list-style-type: none;
+  height: 100%;
+  width: 15%;
+}
+ ul li a{
+  text-decoration-line:none;
+  display: block;
+  padding:5%;
+  color: black;
+}
+ ul li a:hover{
+  text-decoration-line: none;
+  background-color: black;
+  color: white;
+}
+ul li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+section{
+  float: right;
+  height: 2000px;
+  margin-left: 17%
+}
+@media screen and (max-width: 580px){
+  ul{
+    width: 100%;
+    height: auto;
+  }
+  ul li a{
+    float: left;
+    list-style-type: inline;
+    padding-left: 2%;
+  }
+  section{
+    margin-left: 2%;
+    margin-top: 20%;
+  }
+}

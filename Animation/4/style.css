@@ -1,0 +1,39 @@
+div{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: anyName;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+@keyframes anyName {
+  0%{
+    background-color: red;
+    left: 0;
+    top: 0;
+  }
+  25%{
+    background-color: blue;
+    left: 200px;
+    top: 0;
+  }
+  50%{
+    background-color: green;
+    top: 200px;
+    left:200px;
+    width: 150px;
+    height: 150px;
+  }
+  75%{
+    background-color: yellow;
+    top: 200px;
+    left: 0;
+  }
+  100%{
+    background-color: red;
+    top: 0;
+    left: 0;
+  }
+}

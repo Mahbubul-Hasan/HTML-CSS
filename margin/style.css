@@ -1,0 +1,18 @@
+#margin{
+    height: 5000px;
+    width: 1900px;
+    background-color:  #708584 ;
+}
+#padding{
+    height: auto;
+    width: 450px;
+    background-color:  #f5edee;
+    border: 2px solid black;
+    text-align: justify;
+    padding: 25px;
+    margin: 0px 50px 100px 300px;
+}
+
+p{
+    text-indent: 25px;
+}

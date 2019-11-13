@@ -1,0 +1,19 @@
+div{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  
+  animation-name: anyName;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes anyName {
+  from{
+    left: 0;
+  }
+  to{
+    left: 200px;
+  }
+}

@@ -1,0 +1,20 @@
+h2{
+    background-color: greenyellow;
+    padding: 10px 0px 10px 20px;
+}
+.hover_:hover{
+    color: whitesmoke;
+    background-color: rebeccapurple;
+}
+input{
+    border: 2px solid black;
+    padding: 5px;
+}
+input:hover{
+    background-color: gray;
+}
+input:focus{
+    color: red;
+    background-color: aqua;
+    font-weight: bold;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Form control: radio buttons</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <h2>Form control: radio buttons</h2>
+      <p>The form below contains three radio buttons. The last option is disabled:</p>
+      <form class="form-horizontal" action="index.html" method="post">
+        <div class="radio">
+          <label><input type="radio" name="optradio" value="">Option 1</label>
+        </div>
+        <div class="radio">
+          <label><input type="radio" name="optradio" value="">Option 2</label>
+        </div>
+        <div class="radio disabled">
+          <label><input type="radio" name="optradio" value="" disabled>Option 3</label>
+        </div>
+      </form>
+      <br><hr><br><br>
+      <h2>Form control: inline radio buttons</h2>
+      <p>The form below contains three inline radio buttons:</p>
+      <form class="" action="index.html" method="post">
+          <label class="radio-inline"><input type="radio" name="optradio" value="">Option 1</label>
+          <label class="radio-inline"><input type="radio" name="optradio" value="">Option 2</label>
+          <label class="radio-inline"><input type="radio" name="optradio" value="" disabled>Option 3</label>
+      </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

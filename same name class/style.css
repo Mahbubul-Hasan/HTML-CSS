@@ -1,0 +1,12 @@
+div.name
+{
+  color:red;
+}
+p.name
+{
+  font-weight: bold;
+}
+.name
+{
+  text-transform: uppercase;
+}

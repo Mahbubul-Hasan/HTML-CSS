@@ -1,0 +1,83 @@
+/*home*/
+.wrapper{
+    padding: 20px;
+}
+
+header{
+    padding: 20px;
+}
+
+nav div ul li{
+    padding-left: 5px;
+    padding-right: 50px;
+    border-right: 1px solid black;
+}
+
+nav div ul li:last-child{
+    border-right: none;
+}
+
+.home-section{
+    margin-top: 30px;
+}
+
+.home-section div p{
+    margin-top: 50px;
+}
+
+.home-section div ul li{
+    padding: 7px;
+    list-style-type: none;
+}
+.home-section div ul{
+    float: right;
+}
+
+.home-text{
+    display: block;
+    margin-top: 25px;
+}
+@media screen and (max-width: 768px) {
+    .pro-pic{
+        display: block;
+        margin: 0px auto;
+    }
+    .home-section div ul li{
+        padding: 7px;
+        list-style-type: none;
+        display: inline;
+        align-items: center;
+    }
+    .home-section div ul{
+        float: none;
+        text-align: center;
+    }
+}
+
+/*about-section*/
+
+.about-section{
+    margin-top: 100px;
+}
+
+.about-text{
+    display: block;
+    margin-top: 25px;
+    font-weight: 700;
+}
+
+/*contact-text*/
+.contact-text{
+    margin-top: 100px;
+}
+.contact-text h1{
+    text-align: center;
+}
+.contact-text h1 span{
+    display: block;
+}
+
+/*Education*/
+.education-info{
+    margin-top: 100px;
+}

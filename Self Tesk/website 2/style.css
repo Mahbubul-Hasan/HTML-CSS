@@ -1,0 +1,155 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.navigationbar{
+  float: left;
+}
+.navigationbar_ul{
+  position: fixed;
+  background-color: lightgray;
+  width:16.6%;
+  text-align: center;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  margin-left: 0px;
+}
+.navigationbar_ul li{
+  color: black;
+  font-family: Agency FB;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  list-style: none;
+  list-style-type: none;
+}
+.navigationbar_ul li a{
+  color: black;
+  text-decoration: none;
+}
+.navigationbar_ul li hr{
+  padding: 10% !important;
+
+}
+.home{
+  float: left;
+  margin-top: 0px;
+  margin-left: 16.6%;
+}
+.home img{
+  float: left;
+}
+.home .text{
+  width: 300px;
+  position: absolute;
+  top:10%;
+  left:10%;
+}
+.home h4, .home h3, .home h5{
+  font-family: Agency FB;
+  font-weight: 600;
+  padding-left: 10%;
+}
+.about{
+  margin-top: 10%;
+  float: right;
+}
+.about h3, .about p, .about_table{
+  padding-left: 10%;
+  padding-right: 20%;
+}
+.about_table{
+  margin-top: 7%;
+  padding-right: 35%;
+}
+.education{
+  float: right;
+  margin-top: 10%;
+}
+.education h3, .education p, .education hr, .education-table {
+  padding-left: 10%;
+  padding-right: 15%;
+}
+.education hr{
+  padding-left: 10%;
+  margin-top: 7%;
+  height: 20px;
+  width: 1000px;
+  color: black;
+}
+
+.education .col-sm-4{
+  width: 1000px;
+  margin-top: 7%;
+}
+.number{
+  float: left;
+}
+.institute{
+  float: left;
+  padding-left: 30px;
+}
+
+
+.skill{
+  float: right;
+  margin-top: 10%;
+}
+.skill header, .skill p, .skill hr, .skill .row{
+  padding-left: 10%;
+  padding-right: 15%;
+}
+.skill hr{
+  padding-left: 10%;
+  margin-top: 7%;
+  height: 20px;
+  width: 1000px;
+  color: black;
+}
+.skill .row{
+  margin-top: 7%;
+}
+.contact{
+  float: right;
+  margin: 7%;
+}
+.contact header, .contact .col-sm-6, .contact form{
+  padding-left: 20%;
+  padding-right: 10%;
+}
+.contact .row{
+  margin-top: 7%;
+}
+.contact form{
+  margin-top: 7%;
+}
+
+
+.footer_{
+  float: right;
+  margin-top: 7%;
+  background-color: lightgray;
+  height: 100px;
+  text-align: center;
+  padding-top: 50px;
+}
+@media only screen and (max-width:980px)
+{
+  .navigationbar_ul{
+      width: 100%;
+      height: auto;
+      padding: 5%;
+   }
+   .navigationbar_ul hr{
+     display: none;
+   }
+   .navigationbar_ul a{
+     float: left;
+     padding-left: 5%;
+   }
+   .home{
+    margin-top: 30%;
+    margin-left: 0px;
+   }
+}

@@ -1,0 +1,20 @@
+div{
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  animation-name: anyName;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name: anyName;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes anyName {
+  from{
+    background-color: red;
+  }
+  to{
+    background-color: blue;
+  }
+}

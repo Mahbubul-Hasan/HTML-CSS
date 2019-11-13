@@ -1,0 +1,30 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 50px;
+    text-align: center;
+}
+table:nth-child(odd){
+    color: red;
+}
+table:nth-child(even){
+    color: blue;
+}
+
+.italicStyle{
+    font-style: italic;
+}
+
+.boldStyle{
+    font-weight: bold;
+}
+.lineThrough{
+    text-decoration: line-through;
+}
+.lowerCase{
+    text-transform: lowercase;
+}
+
+table:nth-child(4){
+    background: red;
+}

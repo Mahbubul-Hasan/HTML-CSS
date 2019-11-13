@@ -1,0 +1,14 @@
+#padding{
+    height: auto;
+    width:400px;
+    background-color: #ececec;
+    border: 2px solid black;
+    padding: 25px 15px 10px 25px;
+    text-align: justify;
+}
+p{
+    text-indent: 20px;
+}
+h4{
+    text-align: center;
+}

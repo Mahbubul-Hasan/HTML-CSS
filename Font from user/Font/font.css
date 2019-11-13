@@ -1,0 +1,7 @@
+@font-face {
+  font-family: Beholder;
+  src: url("Beholder.eot") format("eot"),
+  url("Beholder.ttf") format("ttf"),
+  url("Beholder.woff") format("woff"),
+  url("Beholder.svg#Beholder") format("svg");
+}

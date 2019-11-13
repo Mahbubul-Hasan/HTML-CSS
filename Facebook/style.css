@@ -1,0 +1,124 @@
+#container{
+  width: 100%;
+  height: 960px;
+  background-color:white;
+  vertical-align: top;
+  float: left;
+}
+#manu_bar{
+  width: auto;
+  height: 100px;
+  background-color:#0f5cc3;
+  vertical-align: top;
+  margin: 0px;
+}
+#text{
+  width: 200px;
+  height: 90px;
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-left: 400px;
+}
+#facebook{
+  text-decoration-line: none;
+  color: white;
+}
+#login{
+  width: 400px;
+  height: 80px;
+  color: white;
+  margin-right: 450px;
+  padding: 10px;
+  float: right;
+}
+#login_botton{
+  background-color: #0f5cc3;
+  border: 1px solid ;
+  color: white;
+  padding: 2px;
+}
+#forgot{
+  color: white;
+  opacity: .5;
+  text-decoration-line: none;
+}
+#forgot:hover{
+  text-decoration-line: underline;
+}
+#box_creat{
+  width: auto;
+  height: 600px;
+  background-color: #e8ebf1  ;
+}
+#creat{
+  width: 400px;
+  height: auto;
+  padding: 10px;
+  margin-right: 450px;
+  float: right;
+}
+.birth{
+  font-size: bold;
+  padding: 5px;
+  text-align: left;
+}
+.radious{
+  width: 150px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius:5px;
+  padding: 5px;
+  font-style: bold;
+  font-size: 20px;
+}
+.radious2{
+  width: 315px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius:5px;
+  padding: 5px;
+  font-style: bold;
+  font-size: 20px;
+}
+.radious3{
+  width: 200px;
+  height: auto;
+  color: white;
+  background-color: #1f8d3b  ;
+  border: 1px solid  black ;
+  border-radius:5px;
+  padding: 5px;
+  font-style: bold;
+  font-size: 20px;
+}
+.size{
+  font-size: 12px;
+}
+#end{
+  width: auto;
+  height: 400px;
+}
+#theend{
+  width: 800px;
+  height: auto;
+  padding: 5px;
+  margin-left: 450px
+}
+.box_table{
+  width: 500px;
+  height: auto;
+  font-size: 10px;
+}
+.box_table1{
+  padding: 5px;
+  font-size: 10px;
+}
+.decoration{
+  color:  #095fed ;
+  text-decoration: none;
+  padding: 3px;
+}
+.decoration:hover{
+  text-decoration: underline;
+}

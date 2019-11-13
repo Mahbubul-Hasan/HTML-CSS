@@ -1,0 +1,51 @@
+a{
+  margin: 200px;
+  display: block;
+  text-decoration: none;
+}
+
+span{
+  color: black;
+  background: lightgray;
+  padding: 10px 40px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+}
+ span:hover{
+   color: white;
+   background: none;
+ }
+
+ span::before{
+   content: "";
+   width: 50%;
+   height:100%;
+   background-color: skyblue;
+   position: absolute;
+   top: 0;
+   left: -50%;
+   z-index: -1;
+   transition: all .2s ease;
+ }
+
+a:hover span::before{
+  left: 0;
+}
+
+span::after{
+  content: "";
+  width: 50%;
+  height:100%;
+  background-color: skyblue;
+  position: absolute;
+  top: 0;
+  right: -50%;
+  z-index: -1;
+  transition: all .2s ease;
+}
+
+a:hover span::after{
+ right: 0;
+}

@@ -1,0 +1,46 @@
+.leftContainer{
+    width: 29%;
+    background: #2D3F4E;
+    padding-left: 30px;
+    padding-top: 30px;
+    height: 700px;
+    float: left;
+}
+
+.leftContainer h1, h2, h3, h4, h5, h6, p, span{
+    color: white;
+}
+
+.leftContainer  p{
+    color: white;
+    font-size: larger;
+    font-weight: 900;
+}
+.rightContainer{
+    width: 65%;
+    padding: 20px;
+    float: right;
+}
+.rightContainer h1, h2, h3, h4, h5, h6{
+    color: #2D3F4E;
+}
+
+.rightContainer p{
+    color: black;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}

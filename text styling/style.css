@@ -1,0 +1,27 @@
+#header{
+    text-align: center;
+}
+#indent{
+    text-indent: 40px;
+}
+#word_spacing{
+    word-spacing: 10px;
+}
+#letter_spacing{
+    letter-spacing: 10px;
+}
+#line_height{
+    line-height: 35px;
+}
+.font{
+    font-size: 25px;
+}
+#text_transform_uppercase{
+    text-transform: uppercase;
+}
+#text_transform_lowercase{
+    text-transform: lowercase;
+}
+#text_transform_capitalize{
+    text-transform: capitalize;
+}

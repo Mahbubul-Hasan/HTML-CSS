@@ -1,0 +1,146 @@
+
+nav{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.navbar a{
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-weight:500;
+  color: black;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+.navbar a:hover{
+  color: black;
+}
+.navbar li:hover, .navbar-brand:hover{
+  background-color: lightgray;
+}
+.navbar ul li{
+  padding: 1%;
+}
+.navbar-brand{
+  padding: 5% 1%;
+}
+
+
+.home{
+  overflow: hidden;
+}
+.home h1{
+  position: absolute;
+  bottom: 2%;
+  left: 2%;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  color: gray;
+}
+
+.about_ .padding_{
+  padding: 3%;
+}
+.about_{
+  overflow: hidden;
+  padding-top: 5%;
+}
+.about_ header h2{
+  text-align: center;
+  letter-spacing: 5px;
+}
+.about_ header p{
+  text-align: center;
+  letter-spacing: 6px;
+  margin-top: 10%;
+}
+.about_ section span{
+  padding: 3px 5px;
+  background-color: lightgray;
+}
+.about_ hr{
+  margin:7% 0;
+}
+
+
+.menu_{
+  padding-top: 5%;
+  overflow: hidden;
+}
+.menu_ .padding_{
+  padding: 3%;
+}
+.menu_ header h2{
+  text-align: center;
+  letter-spacing: 10px;
+}
+.menu_ section{
+  margin-top: 10%;
+}
+.menu_ section h6{
+  letter-spacing: 5px;
+  font-size: 17px;
+}
+.menu_ section p{
+  font-size: 13px;
+  color: gray;
+}
+.menu_ hr{
+  margin:10% 0;
+}
+
+.contact_{
+  overflow: hidden;
+}
+.contact_ .padding_{
+  padding: 3%;
+}
+.contact_ h2{
+  letter-spacing: 10px;
+}
+.contact_ section{
+  margin-top: 5%;
+}
+.contact_ section p{
+  margin-top: 3%;
+  font-size: 14px;
+}
+.contact_ section .text{
+  font-size: 17px;
+  color: #20B2AA;
+}
+.contact_ .input_{
+  margin-top: 1%;
+  width: 100%;
+  padding: 2%;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+.contact_ .button{
+  margin-top: 5%;
+  width: 20%;
+  border: none;
+  padding: 1% 2%;
+  text-align: center;
+}
+.contact_ .button:hover{
+  cursor: pointer;
+  background-color: gray;
+}
+
+
+footer{
+  margin-top: 5%;
+  padding: 2%;
+  background-color: lightgray;
+  text-align: center;
+}
+footer a{
+  color: black;
+}
+footer a:hover{
+  color: green;
+}
+
+@media only screen and (max-width: 1024px) {
+    .contact_ .button{
+      width: 50%;
+
+    }
+}

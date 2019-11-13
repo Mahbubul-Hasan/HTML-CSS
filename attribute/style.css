@@ -1,0 +1,13 @@
+p[class]{
+  color: red;
+}
+p[id]{
+  color: blue;
+}
+h2[class]{
+  color: skyblue;
+}
+a[title]{
+  color: green;
+  text-decoration-line: none;
+}

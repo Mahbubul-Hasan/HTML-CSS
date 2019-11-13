@@ -1,0 +1,179 @@
+nav{
+  background-color: black;
+}
+nav ul{
+  width: 80%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+nav ul li{
+  display: inline-block;
+  list-style-type: none;
+  padding: 1%;
+}
+nav ul li:hover{
+  background-color: white;
+}
+nav ul li a{
+  color: white;
+}
+nav ul li a:hover{
+  text-decoration: none;
+  color: black;
+}
+nav button{
+  display: none;
+}
+@media only screen and (max-width: 1200px){
+  nav button{
+    display:block;
+    border: none;
+    background-color: black;
+    color: white;
+  }
+  nav ul li{
+    display:block;
+  }
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+  color: black;
+  background-color: lightgray;
+  text-decoration: none;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.band header{
+  text-align: center;
+  margin-top: 7%;
+}
+.band header h3{
+  letter-spacing: 3px;
+}
+.band header i{
+  color: gray;
+}
+.band article{
+  text-align: justify;
+  margin-top: 1%;
+}
+.band .img_people{
+  text-align: center;
+}
+
+.dates{
+  background-color: black;
+  margin-top: 5%;
+  padding-bottom: 3%;
+}
+.dates header{
+  text-align: center;
+  margin-top: 7%;
+  color: white;
+}
+.dates header h3{
+  letter-spacing: 3px;
+}
+.dates header i{
+  color: gray;
+}
+.dates .sold{
+  background-color: red;
+  color: white;
+  margin-left: 3%;
+  padding: 1px;
+}
+.dates .number{
+  float: right;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-top: 3px;
+  width: 30px;
+  height: 30px;
+}
+.dates article{
+  background-color: white;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+.dates .img_place .col-md-4{
+  padding: 2%;
+  margin-top: 2%;
+}
+.dates .img_place .col-md-4 .place{
+  padding: 5%;
+  background-color: white;
+}
+.dates .img_place img:hover{
+  opacity:.5;
+}
+.dates .img_place .col-md-4 .place button{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.contact{
+  padding-bottom: 3%;
+}
+.contact header{
+  text-align: center;
+  margin-top: 10%;
+}
+.contact header i{
+  color: gray;
+}
+.contact .location{
+  margin-top: 3%;
+}
+.contact .location .submit_{
+  float: right;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+footer{
+  background-color: lightgray;
+  padding: 3%;
+}
+
+footer .social{
+  margin-left: 27%;
+}
+footer img{
+  -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+footer p{
+  color: gray;
+  text-align: center;
+}
+footer p a{
+  color: gray;
+  text-decoration: none;
+}

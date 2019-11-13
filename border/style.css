@@ -1,0 +1,22 @@
+#border{
+    height: 500px;
+    width: 600px;
+    background-color:  #d9d9db ;
+    border: 5px solid black;
+    //border-top-style: solid;
+    //border-left-style: double;
+    //border-right-style: dashed;
+    //border-bottom-style: dotted;
+    border-style: solid dashed dotted double;
+    //border-top-color: red;
+    //border-left-color: blue;
+    //border-right-color: green;
+    //border-bottom-color: yellow;
+    border-color: red green yellow blue;
+    //border-top-width: 10px;
+    //border-left-width: 15px;
+    //border-right-width: 20px;
+    //border-bottom-width: 25px;
+    border-width: 10px 20px 25px 15px;
+    outline: 3px solid black;
+}

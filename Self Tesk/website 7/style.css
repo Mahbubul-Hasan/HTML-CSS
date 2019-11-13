@@ -1,0 +1,40 @@
+nav{
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 17px 0 rgba(0, 0, 0, 0.19);
+}
+nav ul a{
+  letter-spacing: 4.3px;
+  color: black;
+  padding: 5px 20px;
+}
+nav .navbar-brand{
+  letter-spacing: 4px;
+
+  font-size: 17px;
+  color: black;
+  padding: 5px 10px;
+}
+nav a:hover{
+  background-color: lightgray;
+  color: black;
+}
+.divition{
+  overflow: hidden;
+  margin: 0 10.5%;
+}
+.divition .text{
+  position:absolute;
+  top: 40%;
+  left: 40%;
+  font-size: 50px;
+  color: white;
+}
+.divition .text b{
+  background-color: black;
+  padding: 0 15px;
+  opacity: .7
+}
+@media only screen and (max-width: 1590px){
+  .divition{
+    margin: 0
+  }
+}

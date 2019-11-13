@@ -1,0 +1,13 @@
+table{
+  width: 500px;
+  text-align: center;
+  margin: 50px auto;
+}
+table, td, tr, th{
+  height: 35px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.total{
+  text-align: left;
+}

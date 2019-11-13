@@ -1,0 +1,18 @@
+ul{
+  margin: 200px;
+}
+ul li{
+  list-style-type: none;
+}
+ul li a{
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 10px 40px;
+  margin: 5px 0;
+  display: inline-block;
+}
+
+ul li a:active{
+  background-color: red;
+}

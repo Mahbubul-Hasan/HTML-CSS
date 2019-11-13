@@ -1,0 +1,20 @@
+.redClass{
+    color: red;
+}
+
+.blueClass{
+    color: blue;
+}
+
+.italicClass{
+    font-style: italic;
+}
+
+.changeClass{
+    background-color: red;
+}
+
+#obliqueClass{
+    color: black;
+    background: blue;
+}

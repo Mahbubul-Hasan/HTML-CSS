@@ -1,0 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.attachment{
+  background-image: url('img/flower.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 135%;
+  background-attachment: fixed;
+}
